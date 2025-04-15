@@ -107,22 +107,22 @@ var cabaneCiucas = L.geoJson(cabaneSemi, {
   onEachFeature: onEachFeatureUltra
 }).addTo(map);
 
-var pc1Content = '<b>Culmea Buzoianu</b></br></br>1156m, 4.2km<img class="tooltip" src="../ultramarathon-realtime/img/buzoianu.jpg" alt="Culmea Buzoianu" width="82" height="142"><img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16">'
-var pc2_16Content = '<b>Stânii Glade</b></br></br>965m, 8.6/92km</br><img src="../ultramarathon-realtime/img/revit2.png" title="Food" height="22" width="22"> <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"><img src="../ultramarathon-realtime/img/rescue.png" title="First Aid" style ="color:green" height="22" width="22"></br></br><b>Time limit at 92km, </br>20 hours.</b>'
-var pc3Content = '<b>Curmătura Văii Stânii</b></br></br>1436m, 19km <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16">'
-var pc4Content = '<b>Cabana Ciucaș</b></br></br>1613m, 23.8km <img src="../ultramarathon-realtime/img/revit2.png" title="Food" height="22" width="22"> <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16">'
-var pc5Content = '<b>Ciucaș Peak</b></br></br>1954m, 26km <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16">'
+var pc1Content = '<b>Culmea Buzoianu</b></br></br>1156m, 4.2km<img class="tooltip" src="img/buzoianu.jpg" alt="Culmea Buzoianu" width="82" height="142"><img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16">'
+var pc2_16Content = '<b>Stânii Glade</b></br></br>965m, 8.6/92km</br><img src="img/revit2.png" title="Food" height="22" width="22"> <img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16"><img src="img/rescue.png" title="First Aid" style ="color:green" height="22" width="22"></br></br><b>Time limit at 92km, </br>20 hours.</b>'
+var pc3Content = '<b>Curmătura Văii Stânii</b></br></br>1436m, 19km <img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16">'
+var pc4Content = '<b>Cabana Ciucaș</b></br></br>1613m, 23.8km <img src="img/revit2.png" title="Food" height="22" width="22"> <img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16">'
+var pc5Content = '<b>Ciucaș Peak</b></br></br>1954m, 26km <img src="img/control22.png" title="Time check" height="16" width="16">'
 var pc6_8Content = '<b>Șaua Țigăi</b></br></br>1632m, 27.7/35km <img src="./img/control22.png" title="Time check" height="16" width="16">'
-var pc7Content = '<b>Poiana Teslei</b></br></br>1380m, 30km <img src="../ultramarathon-realtime/img/revit2.png" title="Food" height="22" width="22"><img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22">'
-var pc9Content = '<b>Pas Bratocea</b></br></br>1276m, 39km <img src="../ultramarathon-realtime/img/revit2.png" title="Food" height="22" width="22"> <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"></br></br><b>Time limit, 8 hours.</b>'
-var pc10Content = '<b>Grohotiș Peak</b></br></br>1749m, 47km <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16">'
-var pc11Content = '<b>Ulița Peak</b></br></br>1512m, 51.3km <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16">'
-var pc12Content = '<b>Nebunu Sheepfold</b></br></br> 1369m, 55km </br><img src="../ultramarathon-realtime/img/revit2.png" title="Food" style ="stroke:green" height="22" width="22">  <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22">  <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"> <img src="../ultramarathon-realtime/img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
-var pc13Content = '<b>Măneciu Dam</b></br></br>603m, 66.6km <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"></br></br><b>Time limit, 14 hours.</b>'
-var pc14Content = '<b>Crai&#39s Peak</b></br></br>1447m, 81km <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"> <img src="../ultramarathon-realtime/img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
-var pc15Content = '<b>Sub Tabla Buții</b></br></br>1273m, 90km <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"> <img src="../ultramarathon-realtime/img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
-var pc17Content = '<b>La Rascruce</b></br></br>1804m, 99.5km <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"> <img src="../ultramarathon-realtime/img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
-var pc18Content = '<b>Cabana Silva</b></br></br>1277m, 103km </br><img src="../ultramarathon-realtime/img/revit2.png" title="Food" style ="stroke:green" height="22" width="22">  <img src="../ultramarathon-realtime/img/apa44.png" title="Hydratation point" height="22" width="22">  <img src="../ultramarathon-realtime/img/control22.png" title="Time check" height="16" width="16"> <img src="../ultramarathon-realtime/img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
+var pc7Content = '<b>Poiana Teslei</b></br></br>1380m, 30km <img src="img/revit2.png" title="Food" height="22" width="22"><img src="img/apa44.png" title="Hydratation point" height="22" width="22">'
+var pc9Content = '<b>Pas Bratocea</b></br></br>1276m, 39km <img src="img/revit2.png" title="Food" height="22" width="22"> <img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16"></br></br><b>Time limit, 8 hours.</b>'
+var pc10Content = '<b>Grohotiș Peak</b></br></br>1749m, 47km <img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16">'
+var pc11Content = '<b>Ulița Peak</b></br></br>1512m, 51.3km <img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16">'
+var pc12Content = '<b>Nebunu Sheepfold</b></br></br> 1369m, 55km </br><img src="img/revit2.png" title="Food" style ="stroke:green" height="22" width="22">  <img src="img/apa44.png" title="Hydratation point" height="22" width="22">  <img src="img/control22.png" title="Time check" height="16" width="16"> <img src="img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
+var pc13Content = '<b>Măneciu Dam</b></br></br>603m, 66.6km <img src="img/apa44.png" title="Hydratation point" height="22" width="22"> <img src="img/control22.png" title="Time check" height="16" width="16"></br></br><b>Time limit, 14 hours.</b>'
+var pc14Content = '<b>Crai&#39s Peak</b></br></br>1447m, 81km <img src="img/control22.png" title="Time check" height="16" width="16"> <img src="img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
+var pc15Content = '<b>Sub Tabla Buții</b></br></br>1273m, 90km <img src="img/control22.png" title="Time check" height="16" width="16"> <img src="img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
+var pc17Content = '<b>La Rascruce</b></br></br>1804m, 99.5km <img src="img/control22.png" title="Time check" height="16" width="16"> <img src="img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
+var pc18Content = '<b>Cabana Silva</b></br></br>1277m, 103km </br><img src="img/revit2.png" title="Food" style ="stroke:green" height="22" width="22">  <img src="img/apa44.png" title="Hydratation point" height="22" width="22">  <img src="img/control22.png" title="Time check" height="16" width="16"> <img src="img/rescue.png" title="First Aid" style ="color:green" height="22" width="22">'
 var start_finishContent = '<b>Start/Finish<br></b></br>883m, 108km </br></br><b>Course time limit, </br>26 hours.</b>'
 
 
@@ -220,11 +220,6 @@ var controlPointsChart = L.geoJson(alim, {
 });
 
 
-var controlPointsChart = L.geoJson(alim, {
-  onEachFeature: onEachFeatureUltraChart
-});
-
-
 // Add sidebar to map
 var sidebar = L.control.sidebar({
   autopan: false,       // whether to maintain the centered map point when opening the sidebar
@@ -289,8 +284,11 @@ $('#info').on('click', function (e) {
 sidebar.disablePanel('info')
 
 
-//url_all = 'https://live.mapwizard.eu/live/'
-url_all = 'https://mapwizard.eu:1443/live'
+const url_all = window.APP_CONFIG.BASE_URL;
+
+fetch(url_all)
+  .then(response => response.json())
+  .catch(error => console.error("Error fetching stream:", error));
 
 var markersFemaleInd = {};
 var rankingFemaleInd = {};
